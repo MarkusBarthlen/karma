@@ -20,5 +20,7 @@
   <rule ref="rulesets/java/javabeans.xml/BeanMembersShouldSerialize"/>
 
   <rule ref="rulesets/java/javabeans.xml/MissingSerialVersionUID"/>
+  
+
 
   </ruleset>
