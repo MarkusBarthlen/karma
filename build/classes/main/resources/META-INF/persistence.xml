@@ -5,11 +5,7 @@
 <persistence-unit name="sample">
   <provider>org.hibernate.ejb.HibernatePersistence</provider>
   <jta-data-source>java:/DefaultDS</jta-data-source>
-  <mapping-file>ormap.xml</mapping-file>
-  <jar-file>MyApp.jar</jar-file>
   <class>org.acme.Employee</class>
-  <class>org.acme.Person</class>
-  <class>org.acme.Address</class>
   <properties>
      <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
      <property name="hibernate.connection.password">XXXXXX</property>
