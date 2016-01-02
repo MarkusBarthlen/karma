@@ -2,7 +2,7 @@ package de.barthlen.experiments;
 
 import java.io.Serializable;
 
-public class Main implements Serializable {
+public class Main implements Comparable, Serializable{
 
 	/**  
 	 *  Howto: 
@@ -19,8 +19,9 @@ public class Main implements Serializable {
 	public static String linelengthexceeded;
 
 	public static String test() {
-		if ("" == "")
+		if ("" == "") {
 			return "PMD does not work";
+		}
 		return "";
 	}
 
@@ -31,8 +32,14 @@ public class Main implements Serializable {
 	public void doSomething() {
 		  int x = 0;
 		  
-	      while (true) 
+	      while (true) {
 			x++;
+		}
 		
+	}
+
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }

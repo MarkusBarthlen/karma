@@ -6,11 +6,11 @@
      <description>
       Avoid using 'while' statements without using curly braces
       </description>
-    <rule name="While"
+    <rule name="AlwaysSerializable"
           language="java"
           since="1.0"
-          message="Avoid using 'while' statements without curly braces"
-          class="de.barthlen.experiments.While">
+          message="All classes must implement Serializable"
+          class="de.barthlen.experiments.SerializableIsMust">
       <description>
       Avoid using 'while' statements without using curly braces
       </description>
